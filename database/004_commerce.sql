@@ -1,0 +1,10 @@
+CREATE TABLE IF NOT EXISTS customers(id TEXT PRIMARY KEY,email TEXT NOT NULL UNIQUE,password_hash TEXT NOT NULL,name TEXT NOT NULL DEFAULT '',profile TEXT NOT NULL DEFAULT '{}' CHECK(json_valid(profile)),verified_at TEXT,session_version INTEGER NOT NULL DEFAULT 1,deletion_requested_at TEXT,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
+CREATE TABLE IF NOT EXISTS customer_tokens(hash TEXT PRIMARY KEY,customer_id TEXT NOT NULL REFERENCES customers(id),kind TEXT NOT NULL CHECK(kind IN ('verify','reset')),expires_at INTEGER NOT NULL);
+CREATE TABLE IF NOT EXISTS local_mail(id TEXT PRIMARY KEY,customer_id TEXT NOT NULL REFERENCES customers(id),kind TEXT NOT NULL,encrypted_preview TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
+CREATE TABLE IF NOT EXISTS carts(id TEXT PRIMARY KEY,customer_id TEXT UNIQUE REFERENCES customers(id),content TEXT NOT NULL DEFAULT '{}' CHECK(json_valid(content)),version INTEGER NOT NULL DEFAULT 1,updated_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
+CREATE TABLE IF NOT EXISTS checkout_settings(id INTEGER PRIMARY KEY CHECK(id=1),shipping_cents INTEGER NOT NULL DEFAULT 895 CHECK(shipping_cents>=0),tax_bps INTEGER NOT NULL DEFAULT 0 CHECK(tax_bps BETWEEN 0 AND 10000));
+INSERT OR IGNORE INTO checkout_settings(id) VALUES(1);
+CREATE TABLE IF NOT EXISTS test_orders(id TEXT PRIMARY KEY,customer_id TEXT NOT NULL REFERENCES customers(id),content TEXT NOT NULL CHECK(json_valid(content)),status TEXT NOT NULL DEFAULT 'simulated_placed' CHECK(status IN ('simulated_placed','simulated_reviewed','simulated_cancelled')),created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
+CREATE TABLE IF NOT EXISTS checkout_intents(id TEXT PRIMARY KEY,customer_id TEXT NOT NULL REFERENCES customers(id),cart_id TEXT NOT NULL REFERENCES carts(id),cart_version INTEGER NOT NULL,quote_hash TEXT NOT NULL,expires_at INTEGER NOT NULL,order_id TEXT REFERENCES test_orders(id));
+CREATE TABLE IF NOT EXISTS customer_events(id INTEGER PRIMARY KEY,customer_id TEXT NOT NULL REFERENCES customers(id),action TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
+INSERT OR IGNORE INTO migrations(version) VALUES(4);

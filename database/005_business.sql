@@ -1,0 +1,18 @@
+CREATE TABLE IF NOT EXISTS business_settings(id INTEGER PRIMARY KEY CHECK(id=1),content TEXT NOT NULL CHECK(json_valid(content)));
+CREATE TABLE IF NOT EXISTS inventory_lots(id TEXT PRIMARY KEY,product_id TEXT NOT NULL REFERENCES products(id),label TEXT NOT NULL UNIQUE,batch_number TEXT REFERENCES batches(number),created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
+CREATE TABLE IF NOT EXISTS inventory_movements(id TEXT PRIMARY KEY,lot_id TEXT NOT NULL REFERENCES inventory_lots(id),delta INTEGER NOT NULL CHECK(delta!=0),reason TEXT NOT NULL,order_id TEXT REFERENCES test_orders(id),event_key TEXT UNIQUE,actor_id TEXT REFERENCES admins(id),created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
+CREATE TABLE IF NOT EXISTS inventory_rules(product_id TEXT PRIMARY KEY REFERENCES products(id),reorder_point INTEGER NOT NULL DEFAULT 5,cost_cents INTEGER);
+CREATE TABLE IF NOT EXISTS referral_codes(customer_id TEXT PRIMARY KEY REFERENCES customers(id),code TEXT NOT NULL UNIQUE);
+CREATE TABLE IF NOT EXISTS referrals(referred_id TEXT PRIMARY KEY REFERENCES customers(id),referrer_id TEXT NOT NULL REFERENCES customers(id),created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,CHECK(referred_id!=referrer_id));
+CREATE TABLE IF NOT EXISTS referral_rewards(id TEXT PRIMARY KEY,code TEXT NOT NULL UNIQUE,customer_id TEXT NOT NULL REFERENCES customers(id),referred_id TEXT NOT NULL UNIQUE REFERENCES customers(id),source_order_id TEXT NOT NULL UNIQUE REFERENCES test_orders(id),status TEXT NOT NULL CHECK(status IN ('pending','approved','redeemed','revoked')),flag TEXT NOT NULL DEFAULT '',redeemed_order_id TEXT REFERENCES test_orders(id),created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
+CREATE TABLE IF NOT EXISTS cart_promotions(cart_id TEXT PRIMARY KEY REFERENCES carts(id),code TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS notification_preferences(customer_id TEXT PRIMARY KEY REFERENCES customers(id),cart_consent INTEGER NOT NULL DEFAULT 0,analytics_consent INTEGER NOT NULL DEFAULT 0);
+CREATE TABLE IF NOT EXISTS stock_subscriptions(id TEXT PRIMARY KEY,product_id TEXT NOT NULL REFERENCES products(id),email TEXT NOT NULL,token_hash TEXT NOT NULL,active INTEGER NOT NULL DEFAULT 1,generation INTEGER NOT NULL DEFAULT 1,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,UNIQUE(product_id,email));
+CREATE TABLE IF NOT EXISTS notification_outbox(id TEXT PRIMARY KEY,event_key TEXT NOT NULL UNIQUE,kind TEXT NOT NULL,encrypted_preview TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
+CREATE TABLE IF NOT EXISTS email_templates(kind TEXT PRIMARY KEY,subject TEXT NOT NULL,body TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS abandoned_reminders(cart_id TEXT NOT NULL REFERENCES carts(id),cycle TEXT NOT NULL,queued_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,PRIMARY KEY(cart_id,cycle));
+CREATE TABLE IF NOT EXISTS shipment_events(id TEXT PRIMARY KEY,order_id TEXT NOT NULL REFERENCES test_orders(id),kind TEXT NOT NULL CHECK(kind IN ('simulated_shipped','simulated_delivered')),carrier TEXT NOT NULL,tracking TEXT NOT NULL,created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP,UNIQUE(order_id,kind));
+CREATE TABLE IF NOT EXISTS analytics_events(id TEXT PRIMARY KEY,event TEXT NOT NULL,product_id TEXT REFERENCES products(id),customer_id TEXT REFERENCES customers(id),created_at TEXT NOT NULL DEFAULT CURRENT_TIMESTAMP);
+CREATE INDEX IF NOT EXISTS inventory_by_lot ON inventory_movements(lot_id);
+CREATE INDEX IF NOT EXISTS customer_audit_entity ON audit_events(entity_id);
+INSERT OR IGNORE INTO migrations(version) VALUES(5);
