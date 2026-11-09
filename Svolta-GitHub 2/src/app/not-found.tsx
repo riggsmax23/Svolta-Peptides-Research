@@ -1,0 +1,1 @@
+export default function NotFound(){return <section className="status-page"><span className="eyebrow">SVOLTA / 404</span><h1>This page isn’t in the collection.</h1><p>Explore the catalog or contact Svolta for more information.</p><a className="button" href="/compounds/">Explore compounds ↗</a></section>;}

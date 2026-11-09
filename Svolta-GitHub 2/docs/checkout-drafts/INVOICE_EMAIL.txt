@@ -1,0 +1,34 @@
+SAMPLE ONLY — NOT SENT
+From: Svolta Peptide Research <herbert@svoltapeptideresearch.com>
+To: {{customer_email}}
+Subject: Svolta invoice {{invoice_number}} — payment instructions
+
+Hi {{customer_name}},
+
+Thank you for your order request. Your reviewed invoice and payment instructions are below. No payment was collected on our website.
+
+INVOICE DETAILS
+Invoice: {{invoice_number}}
+Order: {{order_reference}}
+{{itemized_order_lines}}
+Subtotal: {{subtotal}}
+Shipping: {{confirmed_shipping}}
+Tax: {{confirmed_tax}}
+TOTAL DUE: {{confirmed_total}} USD
+
+HOW TO PAY
+1. Open Venmo and find @Riggsmax23.
+2. Verify the displayed recipient name is Max Riggs and use the business purchase flow. If either detail differs, contact us before paying.
+3. Pay exactly {{confirmed_total}} USD.
+4. Include {{invoice_number}} / {{order_reference}} in your payment note. Do not include your address or other personal information.
+
+Your request remains unpaid until we verify receipt. We will email you after verification. If you have already paid, contact us rather than paying twice.
+
+If an item, your details, or the amount needs correcting, reply before sending payment.
+
+Questions? Reply to this email or contact herbert@svoltapeptideresearch.com.
+
+Thank you,
+Svolta Peptide Research
+
+For laboratory research only. Not for human or veterinary use.

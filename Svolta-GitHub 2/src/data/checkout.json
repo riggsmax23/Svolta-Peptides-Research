@@ -1,0 +1,10 @@
+{
+  "senderName": "Svolta Peptide Research",
+  "senderEmail": "herbert@svoltapeptideresearch.com",
+  "supportEmail": "herbert@svoltapeptideresearch.com",
+  "venmoHandle": "Riggsmax23",
+  "venmoRecipientName": "Max Riggs",
+  "emailEnabled": false,
+  "requestNotice": "Submitting an order request does not collect payment or reserve stock. Availability and final charges are confirmed in your invoice.",
+  "invoiceNotice": "Please wait for your invoice before paying. Verify the amount, @Riggsmax23, and the displayed recipient name Max Riggs before sending a business purchase payment."
+}

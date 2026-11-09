@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+Sitemap: https://svolta-research-catalog-1028.riggsmax23.chatgpt.site/sitemap.xml

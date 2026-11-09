@@ -1,0 +1,695 @@
+{
+  "products": [
+    {
+      "id": "glp-2-tz",
+      "name": "GLP-2 (TZ)",
+      "identity": "tirzepatide",
+      "massMg": 5,
+      "priceCents": 4999,
+      "category": "Single compound",
+      "description": "Provisional laboratory research catalog entry. Supplier specifications and supporting documentation are pending review. Not for human or veterinary use.",
+      "available": false,
+      "image": "",
+      "composition": [
+        {
+          "name": "tirzepatide",
+          "massMg": 5
+        }
+      ]
+    },
+    {
+      "id": "bpc-157",
+      "name": "BPC-157",
+      "identity": "BPC-157",
+      "massMg": 10,
+      "priceCents": 4999,
+      "category": "Single compound",
+      "description": "Provisional laboratory research catalog entry. Supplier specifications and supporting documentation are pending review. Not for human or veterinary use.",
+      "available": false,
+      "composition": [
+        {
+          "name": "BPC-157",
+          "massMg": 10
+        }
+      ],
+      "image": ""
+    },
+    {
+      "id": "ghk-cu",
+      "name": "GHK-Cu",
+      "identity": "GHK-Cu",
+      "massMg": 50,
+      "priceCents": 3999,
+      "category": "Single compound",
+      "description": "Provisional laboratory research catalog entry. Supplier specifications and supporting documentation are pending review. Not for human or veterinary use.",
+      "available": false,
+      "image": "",
+      "composition": [
+        {
+          "name": "GHK-Cu",
+          "massMg": 50
+        }
+      ]
+    },
+    {
+      "id": "glp-3-rt",
+      "name": "GLP-3 (RT)",
+      "identity": "retatrutide",
+      "massMg": 10,
+      "priceCents": 6999,
+      "category": "Single compound",
+      "description": "Provisional laboratory research catalog entry. Supplier specifications and supporting documentation are pending review. Not for human or veterinary use.",
+      "available": false,
+      "image": "",
+      "composition": [
+        {
+          "name": "retatrutide",
+          "massMg": 10
+        }
+      ]
+    },
+    {
+      "id": "melanotan-1",
+      "name": "Melanotan-1",
+      "identity": "Melanotan-1",
+      "massMg": 10,
+      "priceCents": 3999,
+      "category": "Single compound",
+      "description": "Provisional laboratory research catalog entry. Supplier specifications and supporting documentation are pending review. Not for human or veterinary use.",
+      "available": false,
+      "image": "",
+      "composition": [
+        {
+          "name": "Melanotan-1",
+          "massMg": 10
+        }
+      ]
+    },
+    {
+      "id": "wolverine-stack",
+      "name": "Wolverine Stack",
+      "identity": "BPC-157 + TB-500",
+      "massMg": 20,
+      "priceCents": 8999,
+      "category": "Research blend",
+      "description": "Provisional laboratory research catalog entry. Supplier specifications and supporting documentation are pending review. Not for human or veterinary use.",
+      "available": false,
+      "image": "",
+      "composition": [
+        {
+          "name": "BPC-157",
+          "massMg": 10
+        },
+        {
+          "name": "TB-500",
+          "massMg": 10
+        }
+      ]
+    },
+    {
+      "id": "klow-stack",
+      "name": "KLOW Stack",
+      "identity": "GHK-Cu + KPV + TB-500 + BPC-157",
+      "massMg": 80,
+      "priceCents": 11999,
+      "category": "Research blend",
+      "description": "Provisional laboratory research catalog entry. Supplier specifications and supporting documentation are pending review. Not for human or veterinary use.",
+      "available": false,
+      "image": "",
+      "composition": [
+        {
+          "name": "GHK-Cu",
+          "massMg": 50
+        },
+        {
+          "name": "KPV",
+          "massMg": 10
+        },
+        {
+          "name": "TB-500",
+          "massMg": 10
+        },
+        {
+          "name": "BPC-157",
+          "massMg": 10
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "heroTitle": "A brighter tomorrow starts with research.",
+    "heroText": "Explore a focused collection of research compounds, with a considered approach to scientific information and laboratory documentation.",
+    "announcement": "FREE SHIPPING ON ORDERS {threshold}+",
+    "announcementEnabled": true,
+    "shippingThresholdCents": 15000,
+    "navy": "#062640",
+    "cyan": "#00add0"
+  },
+  "documents": {
+    "about": {
+      "title": "Research fuels a brighter tomorrow.",
+      "intro": "",
+      "sections": [
+        "hero",
+        "principles",
+        "collection",
+        "story",
+        "transparency"
+      ],
+      "collectionTitle": "Made for discovery.",
+      "storyTitle": "Clarity at every step. Possibility in every question.",
+      "storyText": "Svolta Peptides Research is taking shape around a simple idea: a focused research catalog should be supported by clear product information and accessible documentation.",
+      "transparencyTitle": "Information, in the open.",
+      "transparencyText": "Explore available laboratory documentation and batch-specific analytical reports for Svolta research compounds.",
+      "font": "sans",
+      "spacing": "comfortable",
+      "footerText": "Research fuels a brighter tomorrow.",
+      "navigation": [
+        {
+          "label": "Compounds",
+          "href": "/compounds/"
+        },
+        {
+          "label": "About",
+          "href": "/about/"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact/"
+        }
+      ],
+      "paragraphs": [
+        "Svolta Peptides Research is developing a focused catalog of laboratory research compounds with an emphasis on clear scientific information and accessible documentation. Supplier relationships, product specifications and testing records remain under review. This private development site is an opportunity to refine that experience before any launch."
+      ]
+    },
+    "contact": {
+      "title": "Start a conversation.",
+      "intro": "",
+      "sections": [
+        "hero",
+        "principles",
+        "collection",
+        "story",
+        "transparency"
+      ],
+      "collectionTitle": "Made for discovery.",
+      "storyTitle": "Clarity at every step. Possibility in every question.",
+      "storyText": "Svolta Peptides Research is taking shape around a simple idea: a focused research catalog should be supported by clear product information and accessible documentation.",
+      "transparencyTitle": "Information, in the open.",
+      "transparencyText": "Explore available laboratory documentation and batch-specific analytical reports for Svolta research compounds.",
+      "font": "sans",
+      "spacing": "comfortable",
+      "footerText": "Research fuels a brighter tomorrow.",
+      "navigation": [
+        {
+          "label": "Compounds",
+          "href": "/compounds/"
+        },
+        {
+          "label": "About",
+          "href": "/about/"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact/"
+        }
+      ],
+      "paragraphs": [
+        "Business contact: herbert@svoltapeptideresearch.com. This address was supplied by the owner; delivery has not been verified. No external email delivery is enabled. Please do not send sensitive information through this private preview."
+      ]
+    },
+    "home": {
+      "title": "Svolta Peptides Research",
+      "intro": "",
+      "sections": [
+        "hero",
+        "principles",
+        "collection",
+        "story",
+        "transparency"
+      ],
+      "collectionTitle": "Made for discovery.",
+      "storyTitle": "Clarity at every step. Possibility in every question.",
+      "storyText": "Svolta Peptides Research is taking shape around a simple idea: a focused research catalog should be supported by clear product information and accessible documentation.",
+      "transparencyTitle": "Information, in the open.",
+      "transparencyText": "Explore available laboratory documentation and batch-specific analytical reports for Svolta research compounds.",
+      "font": "sans",
+      "spacing": "comfortable",
+      "footerText": "Research fuels a brighter tomorrow.",
+      "navigation": [
+        {
+          "label": "Compounds",
+          "href": "/compounds/"
+        },
+        {
+          "label": "About",
+          "href": "/about/"
+        },
+        {
+          "label": "Contact",
+          "href": "/contact/"
+        }
+      ],
+      "paragraphs": []
+    }
+  },
+  "articles": [
+    {
+      "productId": "glp-2-tz",
+      "title": "GLP-2 (TZ): research reference",
+      "summary": "Tirzepatide research context, with a clear distinction between the commercial catalog name and the molecule described in the literature.",
+      "overview": "GLP-2 (TZ) is the catalog display name for tirzepatide. Published research describes GIP and GLP-1 receptor activity. The display name does not identify native GLP-2. This provisional vial is for laboratory research only, not human or veterinary use.",
+      "identityText": "The intended scientific identity is tirzepatide, also reported as LY3298176. \u201cGLP-2 (TZ)\u201d is a Svolta catalog name; it should not be interpreted as a claim that the material is the naturally occurring GLP-2 hormone.",
+      "molecularNotes": "Supplier-specific sequence, molecular mass, salt/counterion, water content and analytical identity have not been verified. Numerical molecular values and storage or stability instructions are intentionally withheld until supported by appropriate records.",
+      "evidenceLabel": "Preclinical and clinical literature",
+      "status": "published",
+      "reviewedAt": "2026-10-14",
+      "image": null,
+      "seoTitle": "GLP-2 (TZ) research context",
+      "seoDescription": "Scientific background, evidence limitations and primary references for GLP-2 (TZ). Laboratory research only.",
+      "sections": [
+        {
+          "id": "background",
+          "title": "Compound identification",
+          "body": "Coskun and colleagues described LY3298176 as a modified peptide with activity at GIP and GLP-1 receptors.",
+          "citationIds": [
+            "coskun-2018"
+          ]
+        },
+        {
+          "id": "models",
+          "title": "Experimental context",
+          "body": "The 2018 study combined receptor assays, mouse experiments and early human investigation. These are different evidence settings and must be interpreted separately. Receptor activity is a research characteristic, not a guarantee about a catalog material.",
+          "citationIds": [
+            "coskun-2018"
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Evidence and interpretation",
+          "body": "These references describe the materials and experimental conditions in the cited publications. They do not verify the identity, purity, stability or suitability of a Svolta catalog vial. Supplier specifications and authentic batch documentation remain pending. No human or veterinary use is intended.",
+          "citationIds": []
+        },
+        {
+          "id": "documentation",
+          "title": "Material verification",
+          "body": "A literature identifier is not a batch identity test. Before any publication of physical specifications, supplier records must establish sequence, composition, format and analytical identity. Literature concerning pharmaceutical preparations does not establish equivalence of this provisional catalog entry.",
+          "citationIds": []
+        }
+      ],
+      "references": [
+        {
+          "id": "coskun-2018",
+          "title": "LY3298176, a novel dual GIP and GLP-1 receptor agonist for the treatment of type 2 diabetes mellitus: From discovery to clinical proof of concept",
+          "authors": "Coskun T et al.",
+          "year": 2018,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/30473097/",
+          "doi": "10.1016/j.molmet.2018.09.009",
+          "evidence": "Preclinical and clinical"
+        }
+      ]
+    },
+    {
+      "productId": "bpc-157",
+      "title": "BPC-157: research reference",
+      "summary": "A preclinical literature starting point for BPC-157, emphasizing what animal pharmacokinetic experiments can and cannot establish.",
+      "overview": "BPC-157 is a synthetic pentadecapeptide investigated in preclinical research. The cited work examines pharmacokinetic and distribution questions in rats and dogs. Such findings do not establish human safety or efficacy. Laboratory research only; not for human or veterinary use.",
+      "identityText": "BPC-157 is described as a synthetic peptide containing fifteen amino-acid residues. The provisional catalog identity and listed mass must still be checked against actual supplier documentation.",
+      "molecularNotes": "Supplier-specific sequence, molecular mass, salt/counterion, water content and analytical identity have not been verified. Numerical molecular values and storage or stability instructions are intentionally withheld until supported by appropriate records.",
+      "evidenceLabel": "Preclinical research",
+      "status": "published",
+      "reviewedAt": "2026-10-14",
+      "image": null,
+      "seoTitle": "BPC-157 research context",
+      "seoDescription": "Scientific background, evidence limitations and primary references for BPC-157. Laboratory research only.",
+      "sections": [
+        {
+          "id": "background",
+          "title": "Scientific background",
+          "body": "The cited 2022 primary study examined the disposition of BPC157 in rats and dogs, including pharmacokinetics, distribution, metabolism and excretion.",
+          "citationIds": [
+            "bpc-adme-2022"
+          ]
+        },
+        {
+          "id": "models",
+          "title": "Preclinical findings in context",
+          "body": "The investigators reported species-specific pharmacokinetic observations. These findings describe their experimental material and models; they should not be translated into a human schedule, treatment recommendation or storage instruction.",
+          "citationIds": [
+            "bpc-adme-2022"
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Limitations of the evidence",
+          "body": "These references describe the materials and experimental conditions in the cited publications. They do not verify the identity, purity, stability or suitability of a Svolta catalog vial. Supplier specifications and authentic batch documentation remain pending. No human or veterinary use is intended.",
+          "citationIds": []
+        },
+        {
+          "id": "documentation",
+          "title": "Questions for supplier verification",
+          "body": "Sequence identity, counterion, content, physical format and batch evidence remain unverified for the Svolta entry. Neither the listed 10 mg mass nor a literature citation is a certificate of analysis.",
+          "citationIds": []
+        }
+      ],
+      "references": [
+        {
+          "id": "bpc-adme-2022",
+          "title": "Pharmacokinetics, distribution, metabolism, and excretion of body-protective compound 157, a potential drug for treating various wounds, in rats and dogs",
+          "authors": "He L et al.",
+          "year": 2022,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36588717/",
+          "doi": "10.3389/fphar.2022.1026182",
+          "evidence": "Preclinical"
+        }
+      ]
+    },
+    {
+      "productId": "ghk-cu",
+      "title": "GHK-Cu: research reference",
+      "summary": "An introduction to a copper-associated tripeptide and primary animal-model work on extracellular matrix biology.",
+      "overview": "GHK-Cu is a copper complex of glycyl-L-histidyl-L-lysine. Published preclinical work examines extracellular matrix responses in experimental rat wounds. These observations do not establish clinical benefit or verify Svolta material. Laboratory research only; not for human or veterinary use.",
+      "identityText": "GHK denotes glycyl-L-histidyl-L-lysine; the Cu designation indicates a copper complex. Supplier-specific complex composition, counterions and content must be independently established.",
+      "molecularNotes": "Supplier-specific sequence, molecular mass, salt/counterion, water content and analytical identity have not been verified. Numerical molecular values and storage or stability instructions are intentionally withheld until supported by appropriate records.",
+      "evidenceLabel": "Preclinical research",
+      "status": "published",
+      "reviewedAt": "2026-10-14",
+      "image": null,
+      "seoTitle": "GHK-Cu research context",
+      "seoDescription": "Scientific background, evidence limitations and primary references for GHK-Cu. Laboratory research only.",
+      "sections": [
+        {
+          "id": "background",
+          "title": "Compound background",
+          "body": "Maquart and colleagues investigated GHK-Cu in experimental wound chambers in rats. Their analysis concerned connective tissue accumulation and related biochemical endpoints.",
+          "citationIds": [
+            "maquart-1993"
+          ]
+        },
+        {
+          "id": "models",
+          "title": "Experimental findings",
+          "body": "The study reported changes in extracellular matrix-associated measurements in that animal model. This is preclinical evidence; it does not demonstrate a human treatment outcome or show what an untested catalog vial contains.",
+          "citationIds": [
+            "maquart-1993"
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Evidence limitations",
+          "body": "These references describe the materials and experimental conditions in the cited publications. They do not verify the identity, purity, stability or suitability of a Svolta catalog vial. Supplier specifications and authentic batch documentation remain pending. No human or veterinary use is intended.",
+          "citationIds": []
+        },
+        {
+          "id": "documentation",
+          "title": "Material-specific questions",
+          "body": "The 50 mg listing is a provisional catalog specification. Copper content, complex stoichiometry, peptide content and supplier-specific molecular values need authentic documentation. No purity percentage is currently available.",
+          "citationIds": []
+        }
+      ],
+      "references": [
+        {
+          "id": "maquart-1993",
+          "title": "In vivo stimulation of connective tissue accumulation by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+ in rat experimental wounds",
+          "authors": "Maquart FX et al.",
+          "year": 1993,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8227353/",
+          "doi": "10.1172/JCI116842",
+          "evidence": "Preclinical"
+        }
+      ]
+    },
+    {
+      "productId": "glp-3-rt",
+      "title": "GLP-3 (RT): research reference",
+      "summary": "Retatrutide literature context, distinguishing triple-receptor research from the provisional GLP-3 (RT) catalog label.",
+      "overview": "GLP-3 (RT) is the catalog display name for retatrutide. Published clinical research describes combined GIP, GLP-1 and glucagon receptor agonism. Findings from a clinical trial do not validate this catalog vial. Laboratory research only; not for human or veterinary use.",
+      "identityText": "The intended identity is retatrutide. \u201cGLP-3 (RT)\u201d is a commercial catalog designation, not the name of a native GLP-3 hormone and not proof of identity or regulatory eligibility.",
+      "molecularNotes": "Supplier-specific sequence, molecular mass, salt/counterion, water content and analytical identity have not been verified. Numerical molecular values and storage or stability instructions are intentionally withheld until supported by appropriate records.",
+      "evidenceLabel": "Clinical literature",
+      "status": "published",
+      "reviewedAt": "2026-10-14",
+      "image": null,
+      "seoTitle": "GLP-3 (RT) research context",
+      "seoDescription": "Scientific background, evidence limitations and primary references for GLP-3 (RT). Laboratory research only.",
+      "sections": [
+        {
+          "id": "background",
+          "title": "Research background",
+          "body": "The cited 2023 phase 2 study examined retatrutide, described as a GIP, GLP-1 and glucagon receptor agonist, in a controlled clinical setting.",
+          "citationIds": [
+            "jastreboff-2023"
+          ]
+        },
+        {
+          "id": "models",
+          "title": "Reading clinical evidence",
+          "body": "That randomized trial evaluated defined trial material, participants and outcomes. Its results cannot be generalized to unverified supplier materials, other formulations or a research catalog entry. This page omits treatment schedules and administration instructions.",
+          "citationIds": [
+            "jastreboff-2023"
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Limitations and boundaries",
+          "body": "These references describe the materials and experimental conditions in the cited publications. They do not verify the identity, purity, stability or suitability of a Svolta catalog vial. Supplier specifications and authentic batch documentation remain pending. No human or veterinary use is intended.",
+          "citationIds": []
+        },
+        {
+          "id": "documentation",
+          "title": "Identity before specification",
+          "body": "The 10 mg mass and lyophilized-vial format remain provisional. Batch identity, composition, stability and documentary evidence have not been established. Current legal and provider eligibility must be reviewed separately before any transaction activation.",
+          "citationIds": []
+        }
+      ],
+      "references": [
+        {
+          "id": "jastreboff-2023",
+          "title": "Triple\u2013Hormone-Receptor Agonist Retatrutide for Obesity \u2014 A Phase 2 Trial",
+          "authors": "Jastreboff AM et al.",
+          "year": 2023,
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJMoa2301972",
+          "doi": "10.1056/NEJMoa2301972",
+          "evidence": "Clinical"
+        }
+      ]
+    },
+    {
+      "productId": "melanotan-1",
+      "title": "Melanotan-1: research reference",
+      "summary": "A literature reference for Melanotan-I and melanocortin-related pigmentation research, distinct from Melanotan-II.",
+      "overview": "Melanotan-1 is associated in the literature with the \u03b1-MSH analogue [Nle4-D-Phe7]-\u03b1-MSH, called Melanotan-I. The cited study examined pigmentation-related endpoints in humans; it does not establish this catalog material\u2019s identity or suitability. Not for human or veterinary use.",
+      "identityText": "The intended literature identity is Melanotan-I, an \u03b1-melanocyte-stimulating hormone analogue. Melanotan-I and Melanotan-II are different compounds and must not be substituted in references or supplier specifications.",
+      "molecularNotes": "Supplier-specific sequence, molecular mass, salt/counterion, water content and analytical identity have not been verified. Numerical molecular values and storage or stability instructions are intentionally withheld until supported by appropriate records.",
+      "evidenceLabel": "Clinical literature",
+      "status": "published",
+      "reviewedAt": "2026-10-14",
+      "image": null,
+      "seoTitle": "Melanotan-1 research context",
+      "seoDescription": "Scientific background, evidence limitations and primary references for Melanotan-1. Laboratory research only.",
+      "sections": [
+        {
+          "id": "background",
+          "title": "Scientific identification",
+          "body": "The cited primary paper identifies [Nle4-D-Phe7]-\u03b1-MSH as Melanotan-I and investigates eumelanin-related measurements in human skin.",
+          "citationIds": [
+            "melanotan-2000"
+          ]
+        },
+        {
+          "id": "models",
+          "title": "Evidence context",
+          "body": "This study concerns defined experimental conditions and a particular preparation. It does not establish safety, efficacy or suitability for a provisional vial bearing the same catalog name. No cosmetic, tanning or therapeutic use is recommended.",
+          "citationIds": [
+            "melanotan-2000"
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "Interpretation limits",
+          "body": "These references describe the materials and experimental conditions in the cited publications. They do not verify the identity, purity, stability or suitability of a Svolta catalog vial. Supplier specifications and authentic batch documentation remain pending. No human or veterinary use is intended.",
+          "citationIds": []
+        },
+        {
+          "id": "documentation",
+          "title": "Pending supplier confirmation",
+          "body": "The listed 10 mg content is provisional. Supplier confirmation is required for peptide identity, chemical form, analytical content and physical specifications. No relationship to an approved pharmaceutical product is claimed.",
+          "citationIds": []
+        }
+      ],
+      "references": [
+        {
+          "id": "melanotan-2000",
+          "title": "Increased eumelanin expression and tanning is induced by a superpotent melanotropin [Nle4-D-Phe7]-alpha-MSH in humans",
+          "authors": "Dorr RT et al.",
+          "year": 2000,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/11045725/",
+          "doi": "10.1562/0031-8655(2000)072<0526:ieeati>2.0.co;2",
+          "evidence": "Clinical"
+        }
+      ]
+    },
+    {
+      "productId": "wolverine-stack",
+      "title": "Wolverine Stack: research reference",
+      "summary": "An owner-confirmed BPC-157 and TB-500 research blend. Its listed composition is not evidence of combined effects.",
+      "overview": "Wolverine Stack lists BPC-157 10 mg and TB-500 10 mg, totaling 20 mg. Ingredient research does not establish the behavior of this exact blend. Laboratory research only; not for human or veterinary use.",
+      "identityText": "Wolverine Stack is an owner-defined catalog formulation. Its component masses are provisional specifications; composition, identity and compatibility have not been analytically verified.",
+      "molecularNotes": "Supplier-specific sequence, molecular mass, salt/counterion, water content and analytical identity have not been verified. Numerical molecular values and storage or stability instructions are intentionally withheld until supported by appropriate records.",
+      "evidenceLabel": "Ingredient evidence only",
+      "status": "published",
+      "reviewedAt": "2026-10-14",
+      "image": null,
+      "seoTitle": "Wolverine Stack research context",
+      "seoDescription": "Scientific background, evidence limitations and primary references for Wolverine Stack. Laboratory research only.",
+      "sections": [
+        {
+          "id": "formulation",
+          "title": "Confirmed catalog formulation",
+          "body": "BPC-157: 10 mg. TB-500: 10 mg. Total listed mass: 20 mg. These are owner-confirmed recipe values, not measured results.",
+          "citationIds": []
+        },
+        {
+          "id": "ingredients",
+          "title": "Ingredient research context",
+          "body": "The cited BPC-157 work concerns rats and dogs. The TB-500 reference is an analytical investigation of a specific preparation. Their methods and findings do not test the combined Wolverine formulation.",
+          "citationIds": [
+            "bpc-adme-2022"
+          ]
+        },
+        {
+          "id": "tb-identity",
+          "title": "TB-500 identity requires care",
+          "body": "Ho and colleagues analyzed N-acetylated LKKTETQ in a preparation called TB-500. A catalog name alone does not establish that a supplier uses this same peptide species. It should not be silently equated with full-length thymosin \u03b24.",
+          "citationIds": [
+            "ho-2012"
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "No combined-formulation claim",
+          "body": "Ingredient studies are not evidence that this exact combination has been studied, is compatible or has additive effects. No study of this exact Svolta formulation is cited here. The stated recipe is owner-confirmed catalog information, not an analytical measurement of manufactured material.",
+          "citationIds": []
+        },
+        {
+          "id": "documentation",
+          "title": "Outstanding documentation",
+          "body": "These references describe the materials and experimental conditions in the cited publications. They do not verify the identity, purity, stability or suitability of a Svolta catalog vial. Supplier specifications and authentic batch documentation remain pending. No human or veterinary use is intended.",
+          "citationIds": []
+        }
+      ],
+      "references": [
+        {
+          "id": "bpc-adme-2022",
+          "title": "Pharmacokinetics, distribution, metabolism, and excretion of body-protective compound 157, a potential drug for treating various wounds, in rats and dogs",
+          "authors": "He L et al.",
+          "year": 2022,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36588717/",
+          "doi": "10.3389/fphar.2022.1026182",
+          "evidence": "Preclinical"
+        },
+        {
+          "id": "ho-2012",
+          "title": "Doping control analysis of TB-500, a synthetic version of an active region of thymosin \u03b2\u2084, in equine urine and plasma by liquid chromatography-mass spectrometry.",
+          "authors": "Ho ENM et al.",
+          "year": 2012,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23084823/",
+          "doi": "10.1016/j.chroma.2012.09.043",
+          "evidence": "Analytical"
+        }
+      ]
+    },
+    {
+      "productId": "klow-stack",
+      "title": "KLOW Stack: research reference",
+      "summary": "An owner-confirmed four-component research blend. Read ingredient literature separately from evidence for the exact combined formulation.",
+      "overview": "KLOW Stack lists GHK-Cu 50 mg, KPV 10 mg, TB-500 10 mg and BPC-157 10 mg, totaling 80 mg. References concern individual ingredients, not this exact combination. Laboratory research only; not for human or veterinary use.",
+      "identityText": "KLOW Stack is an owner-defined catalog formulation. Its component masses are provisional specifications; composition, identity and compatibility have not been analytically verified.",
+      "molecularNotes": "Supplier-specific sequence, molecular mass, salt/counterion, water content and analytical identity have not been verified. Numerical molecular values and storage or stability instructions are intentionally withheld until supported by appropriate records.",
+      "evidenceLabel": "Ingredient evidence only",
+      "status": "published",
+      "reviewedAt": "2026-10-14",
+      "image": null,
+      "seoTitle": "KLOW Stack research context",
+      "seoDescription": "Scientific background, evidence limitations and primary references for KLOW Stack. Laboratory research only.",
+      "sections": [
+        {
+          "id": "formulation",
+          "title": "Confirmed catalog formulation",
+          "body": "GHK-Cu: 50 mg. KPV: 10 mg. TB-500: 10 mg. BPC-157: 10 mg. Total listed mass: 80 mg. These are owner-confirmed recipe values, not measured results.",
+          "citationIds": []
+        },
+        {
+          "id": "ingredients",
+          "title": "Ingredient research context",
+          "body": "GHK-Cu has been studied in rat wound models; KPV has been examined in cell and mouse intestinal-inflammation models. BPC-157 has preclinical disposition literature. The references are ingredient-specific starting points, not a study of this mixture.",
+          "citationIds": [
+            "maquart-1993",
+            "dalmasso-2008",
+            "bpc-adme-2022"
+          ]
+        },
+        {
+          "id": "tb-identity",
+          "title": "TB-500 identity requires care",
+          "body": "Ho and colleagues analyzed N-acetylated LKKTETQ in a preparation called TB-500. A catalog name alone does not establish that a supplier uses this same peptide species. It should not be silently equated with full-length thymosin \u03b24.",
+          "citationIds": [
+            "ho-2012"
+          ]
+        },
+        {
+          "id": "limits",
+          "title": "No combined-formulation claim",
+          "body": "Ingredient studies are not evidence that this exact combination has been studied, is compatible or has additive effects. No study of this exact Svolta formulation is cited here. The stated recipe is owner-confirmed catalog information, not an analytical measurement of manufactured material.",
+          "citationIds": []
+        },
+        {
+          "id": "documentation",
+          "title": "Outstanding documentation",
+          "body": "These references describe the materials and experimental conditions in the cited publications. They do not verify the identity, purity, stability or suitability of a Svolta catalog vial. Supplier specifications and authentic batch documentation remain pending. No human or veterinary use is intended.",
+          "citationIds": []
+        }
+      ],
+      "references": [
+        {
+          "id": "maquart-1993",
+          "title": "In vivo stimulation of connective tissue accumulation by the tripeptide-copper complex glycyl-L-histidyl-L-lysine-Cu2+ in rat experimental wounds",
+          "authors": "Maquart FX et al.",
+          "year": 1993,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8227353/",
+          "doi": "10.1172/JCI116842",
+          "evidence": "Preclinical"
+        },
+        {
+          "id": "dalmasso-2008",
+          "title": "PepT1-mediated tripeptide KPV uptake reduces intestinal inflammation",
+          "authors": "Dalmasso G et al.",
+          "year": 2008,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/18061177/",
+          "doi": "10.1053/j.gastro.2007.10.026",
+          "evidence": "Preclinical"
+        },
+        {
+          "id": "ho-2012",
+          "title": "Doping control analysis of TB-500, a synthetic version of an active region of thymosin \u03b2\u2084, in equine urine and plasma by liquid chromatography-mass spectrometry.",
+          "authors": "Ho ENM et al.",
+          "year": 2012,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/23084823/",
+          "doi": "10.1016/j.chroma.2012.09.043",
+          "evidence": "Analytical"
+        },
+        {
+          "id": "bpc-adme-2022",
+          "title": "Pharmacokinetics, distribution, metabolism, and excretion of body-protective compound 157, a potential drug for treating various wounds, in rats and dogs",
+          "authors": "He L et al.",
+          "year": 2022,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/36588717/",
+          "doi": "10.3389/fphar.2022.1026182",
+          "evidence": "Preclinical"
+        }
+      ]
+    }
+  ],
+  "reportCount": 0,
+  "exportedAt": "2026-10-29T01:48:24.710Z"
+}

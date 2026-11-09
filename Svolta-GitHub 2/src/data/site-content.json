@@ -1,0 +1,307 @@
+{
+  "homePromise": {
+    "intro": "Free shipping and free BAC water on every order, plus our one-week delivery promise.",
+    "cards": [
+      {
+        "id": "shipping",
+        "label": "Included with every order",
+        "title": "Free Shipping",
+        "value": "$10.99 value",
+        "offer": "FREE",
+        "description": "Shipping is included with every order at no extra charge."
+      },
+      {
+        "id": "bac-water",
+        "label": "Included with every order",
+        "title": "Free BAC Water",
+        "value": "$10.99 value",
+        "offer": "FREE",
+        "description": "Bacteriostatic water is included with every order at no extra charge."
+      },
+      {
+        "id": "delivery",
+        "label": "Delivery promise",
+        "title": "Arrives in 1 Week or Free",
+        "value": null,
+        "offer": "FREE REPLACEMENT",
+        "description": "If your order doesn’t arrive within one week of shipment, we’ll send a free replacement."
+      }
+    ]
+  },
+  "homeDisclaimer": {
+    "paragraphs": [
+      "All products offered on this website are sold strictly for laboratory and scientific research purposes only.",
+      "They are not intended for human or animal consumption, medical, veterinary, or household use.",
+      "These products are not drugs, food additives, cosmetics, or dietary supplements and are not approved by the FDA for any therapeutic, diagnostic, or preventive purposes.",
+      "The statements on this website have not been evaluated by the Food and Drug Administration (FDA). These products are not intended to diagnose, treat, cure, or prevent any disease.",
+      "By purchasing or using any product from this site, you acknowledge and agree that you are a qualified researcher conducting legitimate scientific research, and you assume all responsibility for compliance with applicable laws and regulations."
+    ],
+    "ageRequirement": "Must be 21 years or older to purchase."
+  },
+  "researchCategories": [
+    {
+      "id": "weight-metabolic",
+      "title": "Weight & Metabolic",
+      "products": [
+        {
+          "id": "glp-2-tz",
+          "label": "Tirzepatide"
+        },
+        {
+          "id": "glp-3-rt",
+          "label": "Retatrutide"
+        }
+      ]
+    },
+    {
+      "id": "recovery-repair",
+      "title": "Recovery & repair",
+      "products": [
+        {
+          "id": "bpc-157",
+          "label": "BPC-157"
+        },
+        {
+          "id": "wolverine-stack",
+          "label": "Wolverine Stack"
+        }
+      ]
+    },
+    {
+      "id": "cosmetic",
+      "title": "Cosmetic",
+      "products": [
+        {
+          "id": "ghk-cu",
+          "label": "GHK-Cu"
+        },
+        {
+          "id": "melanotan-1",
+          "label": "Melanotan-1"
+        },
+        {
+          "id": "klow-stack",
+          "label": "KLOW Stack"
+        }
+      ]
+    }
+  ],
+  "supplier": {
+    "purity": {
+      "title": "Purity Transparency",
+      "summary": "Batch-specific purity results are pending. Documentation status is shown clearly alongside the catalog.",
+      "answer": "No batch-specific purity percentage has been verified for this catalog. Confirmed results can be added alongside the original certificate of analysis after supplier documentation is reviewed."
+    },
+    "testing": {
+      "title": "Evidence in Context",
+      "summary": "Compound-specific scientific references include evidence limitations and are kept separate from verification of catalog material.",
+      "answer": "Supplier testing records are pending review. No independent testing, endotoxin result, or laboratory relationship is currently claimed. Published research references describe the literature and do not verify Svolta material."
+    },
+    "documentation": {
+      "title": "COA Access",
+      "summary": "A dedicated documentation library makes report availability clear. Original batch documents can be added after review.",
+      "answer": "The COA Library is available, but no verified batch-specific certificates have been published yet. Original laboratory reports will be added after they are received and reviewed."
+    },
+    "service": {
+      "title": "Direct Support",
+      "summary": "A published business email gives you a direct contact for compound information and documentation questions.",
+      "answer": "Contact Svolta using the email listed on the Contact page. Support hours and response-time commitments have not yet been established."
+    },
+    "storage": {
+      "answer": "Storage and stability requirements have not yet been verified for the catalog materials. Refer to the actual supplier's product-specific instructions and reviewed batch documentation when available."
+    },
+    "payments": {
+      "answer": "Add compounds to your cart and complete checkout to submit an unpaid order request. Svolta reviews the request and emails an itemized invoice. Follow the invoice instructions to make a separate business purchase payment through Venmo to @Riggsmax23, displayed as Max Riggs. Please wait for the invoice before paying. This website does not collect card details or payments."
+    },
+    "returns": {
+      "answer": "Return and refund terms have not yet been finalized. Contact Svolta for the applicable terms before arranging a purchase. No returns or refunds are processed through this website."
+    }
+  },
+  "whyChoose": {
+    "title": "Why Choose",
+    "brand": "SVOLTA",
+    "intro": "A focused research catalog. Clear information. A direct conversation when you need one.",
+    "cards": [
+      {
+        "id": "pricing",
+        "icon": "tag",
+        "title": "Honest Pricing",
+        "summary": "No hidden fees. No gimmicks. The listed price is what we charge for each compound. Your itemized invoice shows the full total before you pay."
+      },
+      {
+        "id": "purity",
+        "icon": "flask",
+        "supplierKey": "purity"
+      },
+      {
+        "id": "testing",
+        "icon": "shield",
+        "supplierKey": "testing"
+      },
+      {
+        "id": "documentation",
+        "icon": "document",
+        "supplierKey": "documentation",
+        "href": "/coa-library/"
+      },
+      {
+        "id": "service",
+        "icon": "message",
+        "supplierKey": "service",
+        "href": "/contact/"
+      },
+      {
+        "id": "research",
+        "icon": "layers",
+        "title": "Research Focus",
+        "summary": "A considered collection with stated compound identities, masses, and blend compositions. For laboratory research only."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Support",
+    "title": "Frequently Asked Questions",
+    "categories": [
+      {
+        "id": "general",
+        "title": "General",
+        "icon": "help",
+        "enabled": true,
+        "items": [
+          {
+            "id": "research-peptides",
+            "question": "What are research peptides?",
+            "answer": "Peptides are chains of amino acids. Research materials in this catalog are presented for laboratory study only and are not intended for human or veterinary use."
+          },
+          {
+            "id": "intended-use",
+            "question": "Who is this catalog intended for?",
+            "answer": "This catalog is intended for people seeking information about laboratory research materials. The products are not offered for human, veterinary, clinical, or consumer use."
+          },
+          {
+            "id": "affiliation",
+            "question": "Do I need to confirm my age and research use?",
+            "answer": "Visitors are asked to confirm that they are at least 21 and acknowledge laboratory research use. This browser acknowledgment is self-attestation; it does not verify identity, research affiliation, or purchaser eligibility."
+          },
+          {
+            "id": "clinical-use",
+            "question": "Can these materials be used clinically or personally?",
+            "answer": "No. Svolta's catalog is for laboratory research only. It does not provide treatment, dosing, or administration instructions, and the materials are not intended for human or veterinary use."
+          },
+          {
+            "id": "payments",
+            "question": "How are purchasing and payments handled?",
+            "supplierKey": "payments"
+          },
+          {
+            "id": "returns",
+            "question": "What is your return policy?",
+            "supplierKey": "returns"
+          }
+        ]
+      },
+      {
+        "id": "storage",
+        "title": "Storage",
+        "icon": "thermometer",
+        "enabled": true,
+        "items": [
+          {
+            "id": "storage-requirements",
+            "question": "How should research materials be stored?",
+            "supplierKey": "storage"
+          }
+        ]
+      },
+      {
+        "id": "quality",
+        "title": "Product Quality",
+        "icon": "flask",
+        "enabled": true,
+        "link": {
+          "label": "View COAs",
+          "href": "/coa-library/"
+        },
+        "items": [
+          {
+            "id": "quality-review",
+            "question": "How is product quality information reviewed?",
+            "answer": "Catalog specifications, supplier records, and analytical documentation are reviewed separately. Current listings are provisional, and no verified manufacturing standard or quality certification is claimed."
+          },
+          {
+            "id": "batch-testing",
+            "question": "Have the catalog batches been tested?",
+            "supplierKey": "testing"
+          },
+          {
+            "id": "certificates",
+            "question": "Where can I find a certificate of analysis?",
+            "supplierKey": "documentation",
+            "link": {
+              "label": "Open the COA Library",
+              "href": "/coa-library/"
+            }
+          },
+          {
+            "id": "purity",
+            "question": "What purity levels are documented?",
+            "supplierKey": "purity"
+          },
+          {
+            "id": "methods",
+            "question": "Which analytical methods are documented?",
+            "answer": "No supplier-specific analytical methods have been verified yet. Any future method, result, and laboratory attribution will be identified from the original reviewed report."
+          },
+          {
+            "id": "specifications",
+            "question": "Are the listed material specifications confirmed?",
+            "answer": "Listed identities, masses, composition, prices, and physical formats remain provisional until supporting supplier records are reviewed. A catalog description is not an analytical result."
+          },
+          {
+            "id": "purity-definition",
+            "question": "What does a purity result tell me?",
+            "answer": "A purity result describes the tested sample using a particular analytical method. Review it with the original report, batch identifier, and method; a percentage alone does not establish sterility, safety, or suitability for human use."
+          }
+        ]
+      },
+      {
+        "id": "shipping",
+        "title": "Shipping",
+        "icon": "package",
+        "enabled": false,
+        "items": []
+      },
+      {
+        "id": "compliance",
+        "title": "Compliance",
+        "icon": "shield",
+        "enabled": true,
+        "items": [
+          {
+            "id": "approval",
+            "question": "Are these catalog materials presented as FDA-approved products?",
+            "answer": "No. This catalog does not present its research materials as FDA-approved products for clinical or therapeutic use. The collection is for laboratory research only."
+          },
+          {
+            "id": "eligibility",
+            "question": "Does the research-use label establish purchase eligibility?",
+            "answer": "No. A research-use statement and an age acknowledgment do not establish whether a particular purchase or use is permitted. Product-specific eligibility must be addressed before any purchasing arrangement."
+          }
+        ]
+      }
+    ],
+    "contact": {
+      "title": "Contact",
+      "intro": "Have a question that isn't covered here? Contact Svolta about compound information, documentation, or purchasing arrangements."
+    }
+  },
+  "website": {
+    "businessName": "Svolta Peptide Research",
+    "jurisdiction": null,
+    "updatedAt": "2026-11-01",
+    "origin": "https://svolta-research-catalog-1028.riggsmax23.chatgpt.site",
+    "indexingEnabled": false,
+    "analyticsEnabled": true,
+    "analyticsRetentionDays": 90
+  }
+}
