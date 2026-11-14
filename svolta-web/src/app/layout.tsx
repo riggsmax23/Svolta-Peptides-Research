@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { connection } from "next/server";
 import { Header } from "@/components/header";
 import { AgeGate, ResetAcknowledgment, CookiePreferences, SharePage } from "@/components/age-gate";
 import { products, settings } from "@/lib/db";
@@ -18,11 +19,13 @@ export const metadata: Metadata = {
   icons: { icon: [{ url: "/brand/circular.png", type: 'image/png', sizes: '64x64' }], shortcut: '/brand/circular.png', apple: '/brand/circular.png' },
   robots: { index: website.indexingEnabled, follow: website.indexingEnabled },
 };
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  // Generate the document per request so its scripts use the same nonce as the CSP.
+  await connection();
   const s = settings(),
     content = siteDocument("home").published!;
   return (
